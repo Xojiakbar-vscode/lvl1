@@ -1,0 +1,16 @@
+birinchi git bashda branch auto-pull.sh deb yozib olinadi 
+
+git checkout -b Xojiakbar
+git push -u origin Xojiakbar
+
+git checkout main
+git checkout -b Ali
+git push -u origin Ali
+
+git checkout main
+git checkout -b MuhammayYusuf
+git push -u origin MuhammayYusuf
+
+git checkout main
+git checkout -b MuhmadRizo
+git push -u origin MuhmadRizo
