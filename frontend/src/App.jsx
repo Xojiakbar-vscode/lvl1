@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route, NavLink } from 'react-router-dom'
 
 const Home = () => <h1>Home Page</h1>
-const About = () => <h1>About Page</h1>
+import about from './about'
 const Contact = () => <h1>Contact Page</h1>
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<about />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
