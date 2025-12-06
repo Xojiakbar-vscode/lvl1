@@ -2,8 +2,8 @@ import React from 'react'
 import { Routes, Route, NavLink } from 'react-router-dom'
 
 const Home = () => <h1>Home Page</h1>
-const About = () => <h1>About Page</h1>
 import Contact from './Contact'
+import About from './about'
 
 const App = () => {
   return (
