@@ -3,7 +3,7 @@ import { Routes, Route, NavLink } from 'react-router-dom'
 
 const Home = () => <h1>Home Page</h1>
 const About = () => <h1>About Page</h1>
-const Contact = () => <h1>Contact Page</h1>
+import Contact from './Contact'
 
 const App = () => {
   return (
