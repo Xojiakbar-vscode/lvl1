@@ -12,5 +12,5 @@ git checkout -b MuhammayYusuf
 git push -u origin MuhammayYusuf
 
 git checkout main
-git checkout -b MuhmadRizo
-git push -u origin MuhmadRizo
+git checkout -b Muhammadrizo
+git push -u origin Muhammadrizo
