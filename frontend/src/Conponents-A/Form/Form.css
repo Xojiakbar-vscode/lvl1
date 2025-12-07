@@ -1,0 +1,109 @@
+.forms {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/Nature.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FormPage {
+    width: 500px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+
+.Welcome {
+    color: white;
+    filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.9));
+}
+
+.Input1,
+.Input2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 25px 0 25px;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(12px);
+    font-size: 18px;
+}
+
+.Input1::placeholder,
+.Input2::placeholder {
+    color: white;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.FormButton{
+        width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 25px 0 25px;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    background: rgba(255, 247, 0, 0.284);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(12px);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.FormButton:active{
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    background: rgba(225, 219, 52, 0.582);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.bottomBar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+
+.AuthBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.FacebookIcon,
+.FacebookIcon1{
+    font-size: 50px;
+}
