@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 const sequelize = require("../config/database");
 
-// const User = require("./userSchema")(sequelize, Sequelize);
+const User = require("./userModel")(sequelize, Sequelize);
 // const Customer = require("./customer.model")(sequelize, Sequelize);
 // const Car = require("./carSchema")(sequelize, Sequelize);
 
@@ -9,4 +9,4 @@ const sequelize = require("../config/database");
 // User.associate(sequelize.models);
 // Customer.associate(sequelize.models);
 // Car.associate(sequelize.models);
-module.exports = { sequelize}
+module.exports = {User, sequelize}
